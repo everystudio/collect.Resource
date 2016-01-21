@@ -1,0 +1,9 @@
+key,value
+width,150
+height,300
+move_interval,0.2
+move_time,3
+xmin,-240
+xmax,240
+ymin,-200
+ymax,128
