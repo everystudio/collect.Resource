@@ -3,7 +3,10 @@ width,150
 height,300
 move_interval,0.2
 move_time,3
+target_move_interval,2
 xmin,-240
 xmax,240
 ymin,-200
 ymax,128
+target_limit,10
+target_interval,60
