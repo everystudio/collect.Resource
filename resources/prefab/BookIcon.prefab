@@ -27,6 +27,8 @@ GameObject:
   - 114: {fileID: 11459050}
   - 65: {fileID: 6542434}
   - 114: {fileID: 11454258}
+  - 114: {fileID: 11466978}
+  - 114: {fileID: 11477452}
   m_Layer: 8
   m_Name: 2D Sprite
   m_TagString: Untagged
@@ -181,8 +183,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 282fe5770d3337d4085729415b2fd021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_eStep: 0
+  m_eStepPre: 0
+  m_button: {fileID: 11466978}
   m_sprImage: {fileID: 11459050}
   m_lbText: {fileID: 11489272}
+--- !u!114 &11466978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bd161639bec4b77b23c230ae3ca388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_intIndex: 0
+  m_bButtonClicked: 0
+--- !u!114 &11477452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c4ff40739c7904ca26c14ffbdc4176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 140296}
+  functionName: OnClickButton
+  trigger: 0
+  includeChildren: 0
 --- !u!114 &11489272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -255,7 +288,19 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 140296}
+    - target: {fileID: 0}
+      propertyPath: functionName
+      value: OnClickButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_button
+      value: 
+      objectReference: {fileID: 11466978}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137864}
