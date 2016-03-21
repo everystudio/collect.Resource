@@ -163,7 +163,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 162
   mHeight: 46
-  mDepth: 1
+  mDepth: 11
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 540
   mHeight: 100
-  mDepth: 0
+  mDepth: 10
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
@@ -286,7 +286,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 208
   mHeight: 46
-  mDepth: 1
+  mDepth: 11
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   mPivot: 3
   mWidth: 324
   mHeight: 75
-  mDepth: 1
+  mDepth: 11
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
