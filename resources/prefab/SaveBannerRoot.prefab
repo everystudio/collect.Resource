@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11468976}
   - 114: {fileID: 11406338}
   - 114: {fileID: 11418190}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SaveBannerRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 410200}
   - 114: {fileID: 11445772}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,6 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06cf684b8e61c1740a05b7644da297a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_intIndex: 0
+  m_bButtonClicked: 0
+  m_csButtonList: []
   m_grid: {fileID: 11445772}
 --- !u!114 &11445772
 MonoBehaviour:
@@ -175,6 +178,10 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: arrangement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

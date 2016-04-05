@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 436060}
   - 114: {fileID: 11492696}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 460036}
   - 114: {fileID: 11448322}
   - 114: {fileID: 11438808}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GridShareButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 453878}
   - 114: {fileID: 11400200}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label_desc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - 4: {fileID: 400654}
   - 114: {fileID: 11480004}
   - 114: {fileID: 11482078}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,6 +369,10 @@ Prefab:
       propertyPath: m_lbMessage
       value: 
       objectReference: {fileID: 11400200}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 198052}

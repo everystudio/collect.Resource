@@ -12,7 +12,7 @@ GameObject:
   - 65: {fileID: 6584448}
   - 114: {fileID: 11439000}
   - 114: {fileID: 11409500}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: objTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,9 +115,15 @@ MonoBehaviour:
   m_bButtonClicked: 0
   m_eStep: 0
   m_eStepPre: 0
+  m_iSerial: 0
   m_vecTarget: {x: 0, y: 0, z: 0}
   m_vecPosition: {x: 0, y: 0, z: 0}
   m_vecPositionStart: {x: 0, y: 0, z: 0}
+  m_fRangeMinX: 0
+  m_fRangeMaxX: 0
+  m_fRangeMinY: 0
+  m_fRangeMaxY: 0
+  m_fMoveInterval: 0
 --- !u!114 &11439000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +145,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 115016}

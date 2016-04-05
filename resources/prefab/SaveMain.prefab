@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11446120}
   - 114: {fileID: 11428102}
   - 65: {fileID: 6526540}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SaveTabButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 454540}
   - 114: {fileID: 11428152}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: backLoad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - 4: {fileID: 492050}
   - 114: {fileID: 11462780}
   - 65: {fileID: 6508804}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 455586}
   - 114: {fileID: 11448896}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   - 65: {fileID: 6542258}
   - 114: {fileID: 11428526}
   - 114: {fileID: 11436802}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SaveTabButton (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 492980}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DispRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 435004}
   - 114: {fileID: 11473192}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GridChangeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - 114: {fileID: 11451848}
   - 114: {fileID: 11427298}
   - 114: {fileID: 11464840}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SaveBannerRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 403376}
   - 114: {fileID: 11468102}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 443906}
   - 114: {fileID: 11432474}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SaveMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 495412}
   - 114: {fileID: 11480158}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 407844}
   - 114: {fileID: 11468104}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: backSave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 183350}

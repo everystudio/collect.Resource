@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 445140}
   - 114: {fileID: 11476208}
   - 65: {fileID: 6579808}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 2D Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 459458}
   - 114: {fileID: 11414284}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - 4: {fileID: 448352}
   - 114: {fileID: 11440400}
   - 114: {fileID: 11407072}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SaveCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 409910}
   - 114: {fileID: 11472654}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - 65: {fileID: 6529478}
   - 114: {fileID: 11415232}
   - 114: {fileID: 11464154}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: btnYes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - 65: {fileID: 6562662}
   - 114: {fileID: 11471426}
   - 114: {fileID: 11423430}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: btnNo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 428624}
   - 114: {fileID: 11426242}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DispRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 452616}
   - 114: {fileID: 11434494}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 411974}
   - 114: {fileID: 11411878}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 2D Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -896,7 +896,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 145032}

@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11403196}
   - 65: {fileID: 6566628}
   - 114: {fileID: 11440376}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SelectButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,6 +175,10 @@ Prefab:
       propertyPath: tweenTarget
       value: 
       objectReference: {fileID: 148420}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 148420}

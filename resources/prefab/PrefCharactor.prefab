@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 431746}
   - 114: {fileID: 11425480}
   - 114: {fileID: 11439468}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: PrefCharactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,6 +106,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 26b0e03470d4d76449b2dd07cbe21fa1, type: 3}
   - {fileID: 21300000, guid: 79df41736a9462348900a2467c86b077, type: 3}
   - {fileID: 21300000, guid: 52cb90f480479fe4f84ec7a9c9553234, type: 3}
+  m_sprHappyList: []
   idepth: 0
   count: 0
   m_bOpen: 0
@@ -116,7 +117,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 190240}

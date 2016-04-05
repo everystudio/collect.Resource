@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 419396}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DispRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,7 +24,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 475550}
   - 114: {fileID: 11485152}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - 4: {fileID: 481886}
   - 114: {fileID: 11465678}
   - 114: {fileID: 11445596}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GridShareButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - 4: {fileID: 471390}
   - 114: {fileID: 11447146}
   - 65: {fileID: 6517104}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ GameObject:
   - 114: {fileID: 11418308}
   - 65: {fileID: 6572564}
   - 114: {fileID: 11439836}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ShareButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 432266}
   - 114: {fileID: 11442688}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label_desc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 408918}
   - 114: {fileID: 11482396}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 424698}
   - 114: {fileID: 11432360}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 429106}
   - 114: {fileID: 11439200}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ShareMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +761,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 168692}

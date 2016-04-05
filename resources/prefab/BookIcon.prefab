@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 435354}
   - 114: {fileID: 11461998}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BookIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ GameObject:
   - 114: {fileID: 11454258}
   - 114: {fileID: 11466978}
   - 114: {fileID: 11477452}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 2D Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 427270}
   - 114: {fileID: 11489272}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,6 +301,10 @@ Prefab:
       propertyPath: m_button
       value: 
       objectReference: {fileID: 11466978}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137864}
