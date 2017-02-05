@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>578840604519-lpol0ag73k4es38sav9klaeqlpn322vc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.578840604519-lpol0ag73k4es38sav9klaeqlpn322vc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>578840604519-vuv55cvhgo6r63lnj2b1j0qs11q8m590.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC1rEt0qC8D0KpCzP3ug7-TcwYgQReTf3Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>578840604519</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.everystudio.collect.mister</string>
+	<key>PROJECT_ID</key>
+	<string>app-everystudio</string>
+	<key>STORAGE_BUCKET</key>
+	<string>app-everystudio.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:578840604519:ios:b1f9047b57141b06</string>
+	<key>DATABASE_URL</key>
+	<string>https://app-everystudio.firebaseio.com</string>
+</dict>
+</plist>

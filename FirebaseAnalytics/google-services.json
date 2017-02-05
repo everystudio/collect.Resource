@@ -1,0 +1,210 @@
+{
+  "project_info": {
+    "project_number": "578840604519",
+    "firebase_url": "https://app-everystudio.firebaseio.com",
+    "project_id": "app-everystudio",
+    "storage_bucket": "app-everystudio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578840604519:android:490761a06c42eb66",
+        "android_client_info": {
+          "package_name": "jp.everystudio.pocket.zoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmwgH1l4m5ciLhjAZbKUqNCjnLHTm_jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "578840604519-lpol0ag73k4es38sav9klaeqlpn322vc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.everystudio.collect.mister",
+                "app_store_id": "1137378658"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578840604519:android:133a93fcfc50b1aa",
+        "android_client_info": {
+          "package_name": "everystudio.slot.tarot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmwgH1l4m5ciLhjAZbKUqNCjnLHTm_jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578840604519:android:c63378bcc52a7ac9",
+        "android_client_info": {
+          "package_name": "jp.everystudio.slot.dark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmwgH1l4m5ciLhjAZbKUqNCjnLHTm_jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578840604519:android:9c6d808fa82299ed",
+        "android_client_info": {
+          "package_name": "jp.everystudio.collect.apple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmwgH1l4m5ciLhjAZbKUqNCjnLHTm_jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578840604519:android:b1f9047b57141b06",
+        "android_client_info": {
+          "package_name": "jp.everystudio.collect.mister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmwgH1l4m5ciLhjAZbKUqNCjnLHTm_jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578840604519:android:ecd0de3354e8749b",
+        "android_client_info": {
+          "package_name": "jp.everystudio.pocket.kimodameshi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578840604519-6g6eqr5loulocij1hv53k5gktachtoul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmwgH1l4m5ciLhjAZbKUqNCjnLHTm_jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
